@@ -1,11 +1,8 @@
 package com.aaa.ysemm.customer.controller;
-
 import com.aaa.ysemm.customer.entity.UserLogin;
 import com.aaa.ysemm.customer.service.LoginService;
-import com.aaa.ysemm.util.PhotoUtil;
 import com.aaa.ysemm.util.RandomStringUtil;
 import com.aaa.ysemm.util.ResultUtil;
-import org.apache.http.auth.UsernamePasswordCredentials;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.subject.Subject;
