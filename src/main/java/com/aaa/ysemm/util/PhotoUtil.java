@@ -52,8 +52,4 @@ public class PhotoUtil {
         }
         return randomNumber;
     }
-    public static void main(String [] args){
-        String code = PhotoUtil.getCode("18236595321");
-        System.out.println(code);
-    }
 }
